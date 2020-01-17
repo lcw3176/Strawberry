@@ -1,0 +1,9 @@
+C:\Users\THE-LEE\Desktop\Strawberry.exe.config
+C:\Users\THE-LEE\Desktop\Strawberry.exe
+C:\Users\THE-LEE\Desktop\Strawberry.pdb
+D:\project\Cs\Strawberry\Strawberry\obj\Release\Strawberry.MainForm.resources
+D:\project\Cs\Strawberry\Strawberry\obj\Release\Strawberry.Properties.Resources.resources
+D:\project\Cs\Strawberry\Strawberry\obj\Release\Strawberry.csproj.GenerateResource.cache
+D:\project\Cs\Strawberry\Strawberry\obj\Release\Strawberry.csproj.CopyComplete
+D:\project\Cs\Strawberry\Strawberry\obj\Release\Strawberry.exe
+D:\project\Cs\Strawberry\Strawberry\obj\Release\Strawberry.pdb
