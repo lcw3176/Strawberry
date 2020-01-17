@@ -41,10 +41,10 @@
             this.startButton = new MetroFramework.Controls.MetroTile();
             this.pauseButton = new MetroFramework.Controls.MetroTile();
             this.volumeTrack = new MetroFramework.Controls.MetroTrackBar();
-            this.metroTile3 = new MetroFramework.Controls.MetroTile();
-            this.metroTile4 = new MetroFramework.Controls.MetroTile();
-            this.metroTile5 = new MetroFramework.Controls.MetroTile();
-            this.metroTile6 = new MetroFramework.Controls.MetroTile();
+            this.goBefore = new MetroFramework.Controls.MetroTile();
+            this.goNext = new MetroFramework.Controls.MetroTile();
+            this.killVolume = new MetroFramework.Controls.MetroTile();
+            this.fullVolume = new MetroFramework.Controls.MetroTile();
             this.playTrack = new MetroFramework.Controls.MetroTrackBar();
             this.songLengthLabel = new MetroFramework.Controls.MetroLabel();
             this.songNowLabel = new MetroFramework.Controls.MetroLabel();
@@ -179,53 +179,53 @@
             this.volumeTrack.Value = 100;
             this.volumeTrack.Scroll += new System.Windows.Forms.ScrollEventHandler(this.volumeTrack_Scroll);
             // 
-            // metroTile3
+            // goBefore
             // 
-            this.metroTile3.Location = new System.Drawing.Point(747, 98);
-            this.metroTile3.Name = "metroTile3";
-            this.metroTile3.Size = new System.Drawing.Size(45, 45);
-            this.metroTile3.Style = MetroFramework.MetroColorStyle.White;
-            this.metroTile3.TabIndex = 10;
-            this.metroTile3.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile3.TileImage")));
-            this.metroTile3.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile3.UseTileImage = true;
-            this.metroTile3.Click += new System.EventHandler(this.metroTile3_Click);
+            this.goBefore.Location = new System.Drawing.Point(747, 98);
+            this.goBefore.Name = "goBefore";
+            this.goBefore.Size = new System.Drawing.Size(45, 45);
+            this.goBefore.Style = MetroFramework.MetroColorStyle.White;
+            this.goBefore.TabIndex = 10;
+            this.goBefore.TileImage = ((System.Drawing.Image)(resources.GetObject("goBefore.TileImage")));
+            this.goBefore.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.goBefore.UseTileImage = true;
+            this.goBefore.Click += new System.EventHandler(this.goBefore_Click);
             // 
-            // metroTile4
+            // goNext
             // 
-            this.metroTile4.Location = new System.Drawing.Point(914, 98);
-            this.metroTile4.Name = "metroTile4";
-            this.metroTile4.Size = new System.Drawing.Size(45, 45);
-            this.metroTile4.Style = MetroFramework.MetroColorStyle.White;
-            this.metroTile4.TabIndex = 11;
-            this.metroTile4.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile4.TileImage")));
-            this.metroTile4.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile4.UseTileImage = true;
-            this.metroTile4.Click += new System.EventHandler(this.metroTile4_Click);
+            this.goNext.Location = new System.Drawing.Point(914, 98);
+            this.goNext.Name = "goNext";
+            this.goNext.Size = new System.Drawing.Size(45, 45);
+            this.goNext.Style = MetroFramework.MetroColorStyle.White;
+            this.goNext.TabIndex = 11;
+            this.goNext.TileImage = ((System.Drawing.Image)(resources.GetObject("goNext.TileImage")));
+            this.goNext.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.goNext.UseTileImage = true;
+            this.goNext.Click += new System.EventHandler(this.goNext_Click);
             // 
-            // metroTile5
+            // killVolume
             // 
-            this.metroTile5.Location = new System.Drawing.Point(727, 188);
-            this.metroTile5.Name = "metroTile5";
-            this.metroTile5.Size = new System.Drawing.Size(25, 25);
-            this.metroTile5.Style = MetroFramework.MetroColorStyle.White;
-            this.metroTile5.TabIndex = 12;
-            this.metroTile5.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile5.TileImage")));
-            this.metroTile5.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile5.UseTileImage = true;
-            this.metroTile5.Click += new System.EventHandler(this.metroTile5_Click);
+            this.killVolume.Location = new System.Drawing.Point(727, 188);
+            this.killVolume.Name = "killVolume";
+            this.killVolume.Size = new System.Drawing.Size(25, 25);
+            this.killVolume.Style = MetroFramework.MetroColorStyle.White;
+            this.killVolume.TabIndex = 12;
+            this.killVolume.TileImage = ((System.Drawing.Image)(resources.GetObject("killVolume.TileImage")));
+            this.killVolume.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.killVolume.UseTileImage = true;
+            this.killVolume.Click += new System.EventHandler(this.killVolume_Click);
             // 
-            // metroTile6
+            // fullVolume
             // 
-            this.metroTile6.Location = new System.Drawing.Point(965, 188);
-            this.metroTile6.Name = "metroTile6";
-            this.metroTile6.Size = new System.Drawing.Size(25, 25);
-            this.metroTile6.Style = MetroFramework.MetroColorStyle.White;
-            this.metroTile6.TabIndex = 13;
-            this.metroTile6.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile6.TileImage")));
-            this.metroTile6.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile6.UseTileImage = true;
-            this.metroTile6.Click += new System.EventHandler(this.metroTile6_Click);
+            this.fullVolume.Location = new System.Drawing.Point(965, 188);
+            this.fullVolume.Name = "fullVolume";
+            this.fullVolume.Size = new System.Drawing.Size(25, 25);
+            this.fullVolume.Style = MetroFramework.MetroColorStyle.White;
+            this.fullVolume.TabIndex = 13;
+            this.fullVolume.TileImage = ((System.Drawing.Image)(resources.GetObject("fullVolume.TileImage")));
+            this.fullVolume.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.fullVolume.UseTileImage = true;
+            this.fullVolume.Click += new System.EventHandler(this.fullVolume_Click);
             // 
             // playTrack
             // 
@@ -308,19 +308,19 @@
             this.창띄우기ToolStripMenuItem,
             this.종료ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 80);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(144, 52);
             // 
             // 창띄우기ToolStripMenuItem
             // 
             this.창띄우기ToolStripMenuItem.Name = "창띄우기ToolStripMenuItem";
-            this.창띄우기ToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.창띄우기ToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
             this.창띄우기ToolStripMenuItem.Text = "창 띄우기";
             this.창띄우기ToolStripMenuItem.Click += new System.EventHandler(this.창띄우기ToolStripMenuItem_Click);
             // 
             // 종료ToolStripMenuItem
             // 
             this.종료ToolStripMenuItem.Name = "종료ToolStripMenuItem";
-            this.종료ToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.종료ToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
             this.종료ToolStripMenuItem.Text = "종료";
             this.종료ToolStripMenuItem.Click += new System.EventHandler(this.종료ToolStripMenuItem_Click);
             // 
@@ -360,10 +360,10 @@
             this.Controls.Add(this.songNowLabel);
             this.Controls.Add(this.songLengthLabel);
             this.Controls.Add(this.playTrack);
-            this.Controls.Add(this.metroTile6);
-            this.Controls.Add(this.metroTile5);
-            this.Controls.Add(this.metroTile4);
-            this.Controls.Add(this.metroTile3);
+            this.Controls.Add(this.fullVolume);
+            this.Controls.Add(this.killVolume);
+            this.Controls.Add(this.goNext);
+            this.Controls.Add(this.goBefore);
             this.Controls.Add(this.volumeTrack);
             this.Controls.Add(this.pauseButton);
             this.Controls.Add(this.startButton);
@@ -396,11 +396,11 @@
         private MetroFramework.Controls.MetroTile startButton;
         private MetroFramework.Controls.MetroTile pauseButton;
         private MetroFramework.Controls.MetroTrackBar volumeTrack;
-        private MetroFramework.Controls.MetroTile metroTile3;
-        private MetroFramework.Controls.MetroTile metroTile4;
+        private MetroFramework.Controls.MetroTile goBefore;
+        private MetroFramework.Controls.MetroTile goNext;
         private System.Windows.Forms.ColumnHeader columnHeader2;
-        private MetroFramework.Controls.MetroTile metroTile5;
-        private MetroFramework.Controls.MetroTile metroTile6;
+        private MetroFramework.Controls.MetroTile killVolume;
+        private MetroFramework.Controls.MetroTile fullVolume;
         private MetroFramework.Controls.MetroTrackBar playTrack;
         private MetroFramework.Controls.MetroLabel songLengthLabel;
         private MetroFramework.Controls.MetroLabel songNowLabel;

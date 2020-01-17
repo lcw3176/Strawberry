@@ -34,6 +34,7 @@ namespace Strawberry
         {
 
             index++;
+
             if (index >= totalItem)
             {
                 index = 0;

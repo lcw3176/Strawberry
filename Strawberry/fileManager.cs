@@ -41,6 +41,8 @@ namespace Strawberry
 
         private string InputBox()
         {
+            // 바꿀 이름 입력받기 위한 새 폼
+
             MetroForm form = new MetroForm();
             Label label = new Label();
             TextBox textbox = new TextBox();

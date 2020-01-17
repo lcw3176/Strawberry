@@ -21,8 +21,8 @@ namespace Strawberry
         {
             var youtube = new YouTubeService(new BaseClientService.Initializer()
             {
-                ApiKey = "AIzaSyA6LOEa2wOnAdj7Dc_DFNfF6yswk1U-p0M",
-                ApplicationName = "Joebrooks YouTube"
+                ApiKey = "개발자 키",
+                ApplicationName = "개발자 프로그램 이름"
             });
 
             var request = youtube.Search.List("snippet");
@@ -43,7 +43,7 @@ namespace Strawberry
 
             }
 
-            catch (Exception)
+            catch
             {
                 MessageBox.Show("인터넷 연결을 확인해 주세요.", "알림");
                 return;
