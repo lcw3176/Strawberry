@@ -12,3 +12,5 @@
   <image width="200" src=https://user-images.githubusercontent.com/59993347/72676193-d1c2c580-3ad1-11ea-9eba-59d777a3308f.png>
 </div>
 
+#### 21.04.28 
+* .gitignore 추가
